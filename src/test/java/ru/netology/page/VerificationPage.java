@@ -20,8 +20,6 @@ public class VerificationPage {
     }
 
     public DashBoardPage validVerify(String verificationCode) {
-        //codeVerif.setValue(verificationCode);
-        //buttonVerif.click();
         verify(verificationCode);
         return new DashBoardPage();
     }
